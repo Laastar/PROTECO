@@ -1,0 +1,43 @@
+#border
+{
+	color: #FFA905;
+	background: blue;
+	border: 50px solid black;
+	margin: 0%;
+}
+
+#padding
+{
+	color: #00FF86;
+	background: black;
+	/*padding: 50px;*/
+
+	/*padding-left: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-right: 50px;*/
+
+	padding: 60px 40px 20px 15px;
+	margin: 0%;
+}
+
+#margin
+{
+	color: #FF0000;
+	background: yellow;
+	margin: 0px;
+}
+
+body
+{
+	background: orange;
+	color: black;
+}
+
+#imagen
+{
+	border: 20px solid ;
+	background: ;
+	margin: 30px;
+	padding: 30px;
+}

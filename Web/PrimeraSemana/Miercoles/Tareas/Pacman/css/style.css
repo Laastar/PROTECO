@@ -1,0 +1,105 @@
+
+body /*selector de etiqueta*/
+{
+	background: grey;
+}
+
+h1
+{
+	color: white;
+	text-align: center;
+}
+
+h2
+{
+	color: white;
+	text-align: center;
+}
+
+div
+{
+	margin: auto;	
+}
+
+.pacman
+{
+	margin: 50px 10px;
+	animation: movimientoNaranja 3s linear 0s infinite;
+}
+
+.pacman1
+{
+	background: black;
+	height: 100px;
+	width: 200px;
+	border-radius: 0 0 100px 100px;
+	animation: pacmon 3s linear 0s infinite;
+}
+
+.pacman3
+{
+	background: black;
+	height: 100px;
+	width: 200px;
+	border-radius: 100px 100px 0 0;
+	animation: pacman 3s linear 0s infinite;
+}
+
+@keyframes pacman
+{
+	0%{
+		transform: rotate(360deg);
+	}
+
+	50%
+	{
+		transform: rotate(330deg);	
+	}
+
+	100%
+	{
+		transform: rotate(360deg);
+		height: 200px;
+		width: 400px;
+		border-radius: 200px 200px 0 0;
+	}
+}
+
+@keyframes pacmon
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+
+	50%
+	{
+		transform: rotate(30deg);
+	}
+
+	100%
+	{
+		transform: rotate(0deg);
+		height: 200px;
+		width: 400px;
+		border-radius: 0 0 200px 200px;
+	}
+}
+
+@keyframes movimientoNaranja
+{
+	0%
+	{
+		transform: translateX(100px);
+	}
+
+	50%
+	{
+		transform: translateX(200px);
+	}
+
+	100%
+	{
+		transform: translateX(300px);
+	}
+}

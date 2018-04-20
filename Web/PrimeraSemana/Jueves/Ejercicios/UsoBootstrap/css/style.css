@@ -1,0 +1,7 @@
+.col-md-1, .col-md-8, .col-md-4, .col-md-4, .col-md-3, .col-md-6, .col-md-9
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: rgba(9, 41, 199, .2);
+	border: 2px solid rgba(6, 41, 199, .56);
+}

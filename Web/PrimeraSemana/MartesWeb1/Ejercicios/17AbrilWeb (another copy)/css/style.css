@@ -1,0 +1,26 @@
+div
+{
+	color: black;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	font-size: 30px;
+	margin: 5px;
+}
+
+.padre
+{
+	width: 500px;
+	height: 500px;
+	background: black;
+	/*position: absolute;*/
+	position: relative;
+	/*default relativa*/
+}
+
+.caja
+{
+	/*position: static;*/
+	/*static por defecto*/
+	position: fixed;
+}

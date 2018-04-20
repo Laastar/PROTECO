@@ -1,0 +1,140 @@
+body
+{
+	background: black;
+	color: white;
+}
+
+div
+{
+	color: black;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	font-size: 30px;
+	margin: 5px;
+}
+
+.OtrosDatos
+{
+	text-align: center;
+	background-color: grey;
+	color: black;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.lista
+{
+	background-color: white;
+}
+
+.formacion
+{
+	background-color: lightblue;
+	color: black;
+	width: 60%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 51px;
+	padding-right: 51px;
+}
+
+nav a, footer a
+{
+	display: inline-block;
+	width: 200px;
+	height: 20px;
+	text-decoration: none;
+	background-color: #38C2F3;
+	color: black;
+}
+
+#imagen
+{
+	width: 60%;
+	background: orange;
+	color: black;
+}
+
+img
+{
+	width: 75%;
+	border: 20px;
+	margin: 30px;
+	padding: 30px;
+	border-radius: 30px 30px 30px 30px;
+	animation-name: cambio;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;	
+}
+
+.formacion
+{
+	width: 45%;
+}
+
+li:hover a
+{
+	background-color: grey;
+}
+
+footer
+{
+	font-family: 'Gamja Flower', cursive;
+	height: 80px;
+	background: grey;
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+
+table, th, td
+{
+	border: 2px solid rgb(0, 0, 0);
+	width: 30%;
+	background-color: grey;
+	color: black;
+}
+
+section.bio
+{
+	width: 50%;
+	text-align: justify;
+	padding: 20px;
+	background-color: grey;
+	color: black;
+}
+
+.titulo
+{
+	background-color: #3E88E2;
+	width: 53%;
+	margin: 0px;
+	color: black;
+	border-color: black;
+}
+
+@keyframes cambio
+{
+	0%
+	{
+		
+	}
+
+	33%
+	{
+		transform: translate(300px);
+	}
+
+	66%
+	{
+		transform: translate(-300px);
+	}
+
+	100%
+	{
+		
+	}
+}

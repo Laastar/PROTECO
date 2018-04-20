@@ -1,0 +1,50 @@
+
+body
+{
+	background: black;
+}
+
+h2
+{
+	color: grey;
+	text-align: center;
+}
+
+div
+{
+	margin: auto;
+}
+
+.Imagen
+{
+	margin: 0px;
+	border-radius: 30px 30px 30px 30px;
+	animation-name: cambio;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	padding: 20px;
+	background-color: orange;
+}
+
+@keyframes cambio
+{
+	0%
+	{
+		
+	}
+
+	33%
+	{
+		transform: translate(300px);
+	}
+
+	66%
+	{
+		transform: translate(-300px);
+	}
+
+	50%
+	{
+		
+	}
+}
