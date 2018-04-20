@@ -1,0 +1,15 @@
+CREATE TAble prebe1( NumPrebe int, Ap varchar(255), Am varchar(255), Nombre varchar(255));
+INSERT INTO prebe1(NumPrebe, Ap, Am, Nombre) VALUES (8, 'Garcia', 'Ruiz', 'Andrea');
+
+CREATE TAble EMPLEADO(Nombre varchar(40), Ap varchar(40), Am varchar(40), FechaNac DATE, TipoEmpleado char(10), SueldoBase number(8, 2),- Foto BLOB, Titulado number(1, 0));
+
+CREATE GLOBAL TEMPORARY TABLE tabla_temporal(nombre varchar(100), email varchar(150)) on commit delete rows;
+
+INSERT INTO tabla_temporal(nombre, email) VALUES ('Raul Machicao', 'machicaor@gmail.com');
+
+CREATE TABLE promedio(calif_uno number(4,2), calif_dos number(4,2), calif_tres number(4,2), promedio AS ((calif_uno + calif_dos + calif_tres)/3) VIRTUAL); 
+INSERT INTO promedio(calif_uno, calif_dos, calif_tres) VALUES (4.0, 5.9, 10.00);
+
+CREATE TABLE producto(id number(10,0), tipo char(1) DEFAULT 'A', nombre varchar(10) NOT NULL, fecha_creacion DATE DEFAULT SYSDATE);
+INSERT INTO producto(id, nombre) VALUES (1, 'clorox');
+INSERT INTO producto(id, tipo, nombre, fecha_creacion) VALUES (2, 'b', 'mouse', TO_DATE('01/01/2010 12:00:00', 'dd/mm/yyyy hh24:mi:ss'));
