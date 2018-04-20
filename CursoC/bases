@@ -1,0 +1,21 @@
+DDL
+
+CREATE TABLE Prebe(
+Nombre VARCHAR2(30),
+Num_Prebe NUMBER(4),
+Num_Cta NUMBER(10)
+);
+
+DML
+
+INSERT INTO Prebe VALUES('Ivan', 11, 32590367);
+
+INSERT INTO Libro VALUES('Crepusculo', 1, 300, 1234567);
+INSERT INTO Libro VALUES('Cagliostro', 3, 900, 7654321);
+INSERT INTO Libro VALUES('Principito', 7, 150, 1234676);
+
+INSERT INTO Autor VALUES('Ramona', 'Crepusculo', 'ramona@gmail.com', 1);
+INSERT INTO Autor VALUES('Armando', 'Principito', 'princesa@gmail.com', 5);
+INSERT INTO Autor VALUES('Coloso', 'Cagliostro', 'cacodemon@gmail.com', 0);
+
+SELECT * FROM NomTabla
