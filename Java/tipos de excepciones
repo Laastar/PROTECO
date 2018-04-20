@@ -1,0 +1,13 @@
+/* ClassCastException
+object x = new Integer(20);
+String s = (String) x;
+
+NegativeArrayException
+int[] areglo = new Int[-2];
+
+Null pointer exception
+Object[] a = new Object[3];
+a[2].toString();
+
+
+*/

@@ -1,0 +1,12 @@
+class Servidor extends Thread
+{
+	private String nombreClliente;
+	private Bufferedreader entrada;
+
+	public Servidr(Socket s) throws IOException
+	{
+		entrada = new BufferedReader(new InputStreaamReader(s.getInput()));
+		nombreCliente = s.getInetAdress().getCanonicalHostName();
+		System.put.println("Conexion aceptada desde: " + s.getRemoteSocketAddress());
+	}
+}

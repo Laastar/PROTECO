@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"FieldCommander","l":"FieldCommander()"},{"p":"<Unnamed>","c":"FieldCommander","l":"formacion()"},{"p":"<Unnamed>","c":"FieldCommander","l":"getShield()"},{"p":"<Unnamed>","c":"FieldCommander","l":"shield"}]
